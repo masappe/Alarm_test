@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		69ED25AC228320E60064F118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED25AB228320E60064F118 /* AppDelegate.swift */; };
-		69ED25AE228320E60064F118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED25AD228320E60064F118 /* ViewController.swift */; };
 		69ED25B1228320E60064F118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ED25AF228320E60064F118 /* Main.storyboard */; };
 		69ED25B3228320E70064F118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69ED25B2228320E70064F118 /* Assets.xcassets */; };
 		69ED25B6228320E70064F118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ED25B4228320E70064F118 /* LaunchScreen.storyboard */; };
 		69ED25C1228320E70064F118 /* Alarm_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED25C0228320E70064F118 /* Alarm_testTests.swift */; };
 		69ED25CC228320E80064F118 /* Alarm_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED25CB228320E80064F118 /* Alarm_testUITests.swift */; };
+		69ED26142284F6D30064F118 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED26132284F6D30064F118 /* SetViewController.swift */; };
+		69ED26162284F6EC0064F118 /* SleepingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED26152284F6EC0064F118 /* SleepingViewController.swift */; };
+		69ED26182284F7040064F118 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED26172284F7040064F118 /* Alarm.swift */; };
+		69ED261A2284F7160064F118 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED26192284F7160064F118 /* CurrentTime.swift */; };
+		69ED2620228709630064F118 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69ED261F228709630064F118 /* test.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		69ED25A8228320E60064F118 /* Alarm_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69ED25AB228320E60064F118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69ED25AD228320E60064F118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69ED25B0228320E60064F118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69ED25B2228320E70064F118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69ED25B5228320E70064F118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		69ED25C7228320E80064F118 /* Alarm_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alarm_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69ED25CB228320E80064F118 /* Alarm_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_testUITests.swift; sourceTree = "<group>"; };
 		69ED25CD228320E80064F118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69ED26132284F6D30064F118 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		69ED26152284F6EC0064F118 /* SleepingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingViewController.swift; sourceTree = "<group>"; };
+		69ED26172284F7040064F118 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		69ED26192284F7160064F118 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		69ED261F228709630064F118 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		69ED25AA228320E60064F118 /* Alarm_test */ = {
 			isa = PBXGroup;
 			children = (
+				69ED261F228709630064F118 /* test.wav */,
+				69ED26172284F7040064F118 /* Alarm.swift */,
+				69ED26132284F6D30064F118 /* SetViewController.swift */,
+				69ED26192284F7160064F118 /* CurrentTime.swift */,
+				69ED26152284F6EC0064F118 /* SleepingViewController.swift */,
 				69ED25AB228320E60064F118 /* AppDelegate.swift */,
-				69ED25AD228320E60064F118 /* ViewController.swift */,
 				69ED25AF228320E60064F118 /* Main.storyboard */,
 				69ED25B2228320E70064F118 /* Assets.xcassets */,
 				69ED25B4228320E70064F118 /* LaunchScreen.storyboard */,
@@ -193,6 +205,11 @@
 				TargetAttributes = {
 					69ED25A7228320E60064F118 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					69ED25BB228320E70064F118 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -229,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ED2620228709630064F118 /* test.wav in Resources */,
 				69ED25B6228320E70064F118 /* LaunchScreen.storyboard in Resources */,
 				69ED25B3228320E70064F118 /* Assets.xcassets in Resources */,
 				69ED25B1228320E60064F118 /* Main.storyboard in Resources */,
@@ -256,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69ED25AE228320E60064F118 /* ViewController.swift in Sources */,
+				69ED261A2284F7160064F118 /* CurrentTime.swift in Sources */,
+				69ED26162284F6EC0064F118 /* SleepingViewController.swift in Sources */,
+				69ED26182284F7040064F118 /* Alarm.swift in Sources */,
+				69ED26142284F6D30064F118 /* SetViewController.swift in Sources */,
 				69ED25AC228320E60064F118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
